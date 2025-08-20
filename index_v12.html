@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ご寄付ありがとうございました｜小垣内参拾人組</title>
+<meta name="description" content="小垣内参拾人組へのご寄付が完了しました。温かいご支援に心より御礼申し上げます。">
+<style>
+  :root{
+    --accent:#2e7d32;        /* 落ち着いたグリーン（安心感） */
+    --accent-2:#43a047;      /* アクセントの明るめ */
+    --accent-soft:#e8f5e9;   /* 淡グリーン背景 */
+    --fg:#1f2937;            /* 本文色（濃いグレー） */
+    --muted:#6b7280;         /* サブテキスト */
+    --line:#e5e7eb;          /* 枠線 */
+    --bg:#ffffff;            /* 背景は白 */
+    --shadow:0 10px 28px rgba(17,24,39,.08);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans JP", Meiryo, "Apple Color Emoji";
+    color:var(--fg); background:var(--bg); line-height:1.8;
+  }
+  .wrap{max-width:980px;margin:0 auto;padding:28px}
+  .hero{
+    border:1px solid var(--line);
+    border-radius:20px;
+    background:#fff;
+    box-shadow:var(--shadow);
+    overflow:hidden;
+  }
+  .hero-head{
+    display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between;
+    padding:16px 20px;
+    background: linear-gradient(135deg, var(--accent-soft), #fff);
+    border-bottom:1px solid var(--line);
+  }
+  .status{
+    display:flex; align-items:center; gap:10px;
+    color:var(--accent);
+    font-weight:600;
+  }
+  .status svg{width:22px;height:22px}
+  h1{font-size:clamp(22px,4vw,32px); margin:0}
+  .body{padding:22px 22px 18px}
+  .banner{
+    display:flex; gap:10px; align-items:flex-start;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    color:#fff; border-radius:14px; padding:12px 14px; margin: 4px 0 18px;
+    box-shadow: 0 10px 22px rgba(46,125,50,.25);
+  }
+  .banner svg{flex:0 0 22px; margin-top:2px}
+  .lead{color:var(--muted); margin:0 0 16px}
+  .chips{display:flex; flex-wrap:wrap; gap:12px; margin:10px 0 6px}
+  .chip{
+    flex:1 1 220px; min-width:220px;
+    border:1px dashed var(--line); border-radius:12px; padding:10px 12px; background:#fff;
+  }
+  .chip b{display:block; font-size:12px; color:#9aa1ab; margin-bottom:2px}
+  .section-title{font-size:18px; margin:18px 0 8px}
+  .callout{
+    background:#fafafa; border:1px solid var(--line); border-radius:12px; padding:12px 14px;
+  }
+  .callout.success{background:var(--accent-soft); border-color:#cfe8d1}
+  ul{margin:8px 0 8px 1.2em}
+  .cta{
+    display:inline-flex; align-items:center; gap:10px;
+    padding:12px 16px; border-radius:12px; text-decoration:none; font-weight:600;
+    background:linear-gradient(135deg, var(--accent), var(--accent-2));
+    color:#fff; border:1px solid #1b5e20;
+    box-shadow: 0 10px 24px rgba(46,125,50,.25);
+    transition: transform .12s ease, box-shadow .12s ease;
+  }
+  .cta:hover{transform:translateY(-2px); box-shadow: 0 16px 28px rgba(46,125,50,.35)}
+  .progress{height:10px; border-radius:999px; background:#f3f4f6; overflow:hidden; margin:12px 0 6px; border:1px solid var(--line)}
+  .bar{height:100%; width:0%; background: linear-gradient(90deg, #c8e6c9, #81c784, var(--accent)); transition: width .2s linear}
+  .count{color:var(--muted); font-variant-numeric:tabular-nums}
+  .small{color:var(--muted); font-size:13px; margin-top:6px}
+  .controls{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+  .btn-ghost{
+    display:inline-flex; align-items:center; gap:8px; padding:10px 12px; border-radius:10px;
+    border:1px solid var(--line); background:#fff; color:var(--fg); text-decoration:none; font-weight:600;
+  }
+  .btn-ghost:hover{background:#f9fafb}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  @media (prefers-reduced-motion: reduce){ .cta, .bar{transition:none} }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="hero-head">
+        <div class="status">
+          <!-- Check icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+          <span>お支払いは正常に完了しました</span>
+        </div>
+        <h1>ご寄付、誠にありがとうございます</h1>
+      </div>
+
+      <div class="body">
+        <!-- 公開時期（安心案内） -->
+        <div class="banner" role="status" aria-live="polite">
+          <!-- Calendar icon -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          <div><strong>【公開時期】</strong>総集編は<strong>年内公開予定</strong>ですが、制作進行により<strong>翌年へ順延</strong>となる場合があります。（<strong>掲載自体は必ず実施</strong>いたします。）</div>
+        </div>
+
+        <div class="callout success">
+          <strong>レシートについて：</strong> 領収書（レシート）は、Squareにご登録の<strong>メールアドレス宛に自動送信</strong>されます。受信メールをご確認のうえ、大切に保管ください。
+        </div>
+
+        <p class="lead">皆さまの温かいご支援は、地域の安全・安心の維持、文化・行事の継承、次世代の育成など、地域コミュニティのための活動に大切に活用いたします。</p>
+
+        <!-- 任意表示（クエリがある場合のみ） -->
+        <div class="chips" id="info" style="display:none">
+          <div class="chip"><b>お名前</b><span id="name"></span></div>
+          <div class="chip"><b>ご寄付金額</b><span id="amount"></span></div>
+          <div class="chip"><b>注文ID</b><span id="order"></span></div>
+        </div>
+
+        <h2 class="section-title">エンドロール掲載について</h2>
+        <div class="callout">
+          決済時の<strong>「必須項目＊ エンドロール掲載名（10文字以内）」</strong>にご記載いただいたお名前を、
+          <strong>本年10月に行われる「熊取だんじり祭り」</strong>の様子をまとめた、
+          <strong>小垣内参拾人組 公式YouTubeチャンネルで公開予定の「総集編動画」</strong>の
+          <strong>エンドロール（動画の最後のクレジット）</strong>に掲載いたします。<br>
+          ※制作進行により公開時期が<strong>翌年へ順延</strong>となる場合がありますが、<strong>掲載自体は必ず実施</strong>いたします。
+        </div>
+
+        <h2 class="section-title">チャンネル登録のお願い</h2>
+        <div class="callout">
+          総集編の公開や活動報告は、YouTubeチャンネルにて随時ご案内いたします。<br>
+          ぜひ<strong>チャンネル登録</strong>と<strong>通知のオン</strong>（ベルマーク）をお願いいたします。ご支援の輪が広がる大きな励みになります。
+        </div>
+
+        <div class="controls" style="margin-top:12px">
+          <a class="cta" id="goNow" href="https://youtube.com/channel/UCrSJoyT1Xf6ZxPlIyBCRzEA?si=WvMPTXwWtxcQ0411">
+            <!-- YouTube triangle -->
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="white" aria-hidden="true"><path d="M10 8l6 4-6 4V8z"/></svg>
+            今すぐ YouTube へ進む
+          </a>
+          <button class="btn-ghost" id="toggleBtn" type="button">
+            <!-- Pause icon -->
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+            自動移行を停止する
+          </button>
+          <span class="count" aria-live="polite"><span id="sec">20</span> 秒後に自動で移動します。</span>
+        </div>
+
+        <div class="progress" aria-hidden="true"><div class="bar" id="bar"></div></div>
+        <p class="small">※このページは決済完了後に表示されています。ウィンドウを閉じても問題ありません。</p>
+        <span class="sr-only" id="live"></span>
+      </div>
+    </section>
+  </div>
+
+<script>
+  // 設定
+  var TOTAL = 20;
+  var remaining = TOTAL;
+  var timer = null;
+  var stopped = false;
+  var targetUrl = "https://youtube.com/channel/UCrSJoyT1Xf6ZxPlIyBCRzEA?si=WvMPTXwWtxcQ0411";
+
+  var elSec = document.getElementById('sec');
+  var elBar = document.getElementById('bar');
+  var elToggle = document.getElementById('toggleBtn');
+  var elLive = document.getElementById('live');
+
+  function tick(){
+    remaining -= 1;
+    if (remaining <= 0){
+      clearInterval(timer);
+      window.location.href = targetUrl;
+      return;
+    }
+    elSec.textContent = remaining;
+    elBar.style.width = ((TOTAL - remaining) / TOTAL * 100) + '%';
+  }
+
+  function start(){
+    if (timer) clearInterval(timer);
+    timer = setInterval(tick, 1000);
+    elLive.textContent = "自動移行を開始しました";
+  }
+
+  function stop(){
+    if (timer) { clearInterval(timer); timer = null; }
+    elLive.textContent = "自動移行を停止しました";
+  }
+
+  // 初期開始
+  elSec.textContent = remaining;
+  elBar.style.width = '0%';
+  start();
+
+  // 停止/再開ボタン
+  elToggle.addEventListener('click', function(){
+    if (!stopped){
+      stopped = true; stop();
+      // change to play icon & label
+      elToggle.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 5v14l11-7z"/></svg> 自動移行を再開する';
+    } else {
+      stopped = false; start();
+      elToggle.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg> 自動移行を停止する';
+    }
+  });
+
+  // URLクエリから任意情報を表示
+  (function(){
+    var qs = new URLSearchParams(location.search);
+    var order = qs.get('order_id') || qs.get('orderId') || '';
+    var name  = qs.get('name') || qs.get('customer_name') || '';
+    var amount = qs.get('amount') || '';
+    var currency = qs.get('currency') || '';
+    function set(id, v){ if (v) document.getElementById(id).textContent = v; }
+    if (order || name || amount) {
+      var info = document.getElementById('info');
+      info.style.display = 'flex';
+      set('order', order);
+      set('name', name);
+      if (amount) {
+        var disp = amount + (currency ? ' ' + currency : '');
+        set('amount', disp);
+      }
+    }
+  })();
+</script>
+</body>
+</html>
